@@ -1,4 +1,4 @@
-# tmux cheatsheet
+# tmux
 
 start a new session:
 
@@ -53,6 +53,13 @@ In tmux, hit the prefix `ctrl+b` and then:
     x  kill pane
     ⍽  space - toggle between layouts
 
+## Miscellaneous
+
+    d  detach
+    t  big clock
+    ?  list shortcuts
+    :  prompt
+
 ## Window/pane surgery
 
     :joinp -s :2<CR>  move window 2 into a new pane in the current window
@@ -61,14 +68,8 @@ In tmux, hit the prefix `ctrl+b` and then:
 * [Move window to pane](http://unix.stackexchange.com/questions/14300/tmux-move-window-to-pane)
 * [How to reorder windows](http://superuser.com/questions/343572/tmux-how-do-i-reorder-my-windows)
 
-## Misc
 
-    d  detach
-    t  big clock
-    ?  list shortcuts
-    :  prompt
-
-Resources:
+## Resources:
 
 * [cheat sheet](http://cheat.errtheblog.com/s/tmux/)
 
